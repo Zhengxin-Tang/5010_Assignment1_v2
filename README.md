@@ -10,6 +10,7 @@ dictionary. In addition to seeking for the meaning of the words, the server allo
 remove words. The dictionary data is shared among all the clients.
 This assignment has been designed to use TCP Sockets. The server creates a pool of threads and uses
 them to process clients requests.
+
 **2 Dictionary Server**
 
 The server maintains the dictionary. The dictionary contains the list of words and their meaning. The
@@ -25,7 +26,7 @@ must be encapsulated in the form of JSON messages (more details to come).
 library).
 - Your program should be cleanly finished by terminating all running threads.
 
-- Package everything into a single runnable jar le, one for server, one for client.
+- Package everything into a single runnable jar runnable, one for server, one for client.
 - Your server and client should be executable exactly as follows:
 ```
 java -jar server.jar [-p port]
