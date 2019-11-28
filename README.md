@@ -1,5 +1,7 @@
 # 5010_Assignment1_v2
+
 **1 Synopsis**
+
 The assignment is to create an \online dictionary" application using client/server architecture. The system
 consists of two main distributed components: server and clients, which may run on different hosts in the
 network. Clients are Java programs which can connect to the server. The server is a Java application that
@@ -9,6 +11,7 @@ remove words. The dictionary data is shared among all the clients.
 This assignment has been designed to use TCP Sockets. The server creates a pool of threads and uses
 them to process clients requests.
 **2 Dictionary Server**
+
 The server maintains the dictionary. The dictionary contains the list of words and their meaning. The
 server must serve multiple clients concurrently. Threads are used to achieve this functionality. The server
 is also responsible for managing all the connected clients and responding to their requests. The server
